@@ -8,7 +8,7 @@ import time
 # TODO
 # Twitter alert
 # Search for users to monitor
-# Use a trve nosql database ;)
+# Use a trve nosql database ;) (tinydb)
 
 users_list = ['jcesarstef']
 
