@@ -60,9 +60,10 @@ def main(username):
             #TODO
             pass
 
-for user in users_list:
-    main(user)
-    print(user + " dumped to DB and looking for deleted tweets")
-    #time.sleep(60)
-    test_if_deleted()
-    time.sleep(60)
+if __name__ == "__main__":
+    for user in users_list:
+        main(user)
+        print(user + " dumped to DB and looking for deleted tweets")
+        #time.sleep(60)
+        test_if_deleted()
+        time.sleep(60)
